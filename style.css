@@ -1,0 +1,228 @@
+ 
+ /* Importere font til ikoner */
+
+ @font-face  {
+    src: url(font/Icomoon/icomoon.ttf);
+} 
+
+*{
+    font-family: icomoon;
+}
+
+/*@import url('');
+
+@import {
+    url('/font/Icomoon/icomoon.eot'){
+    font-family: 'icomoon', sans-serif;
+}
+*/
+
+html    {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    background-color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    /*Midlertidig headerbilde*/
+
+    /*backgrunnsbilde. Bildene er hentet fra Google. Lenken til kilden er brukt i koden*/
+    background-image: url(https://thumbs.dreamstime.com/b/bronze-color-metallic-painted-matt-surface-wide-wallpaper-copper-coloured-texture-dark-golden-brown-background-bronze-color-231983332.jpg);
+ 
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: top left;
+    background-size: 1000px 190px;
+    width: fixed;
+    background-position-x: 160px;
+}
+
+
+/* Et forsøk på header */
+
+/* #header-background {
+    width: 100%;
+    height: 200px;
+    background-image:url(https://images.squarespace-cdn.com/content/v1/5cc33b6a7eb88c1448e5ae72/1632523555377-7NLUN80WZGYFZYUSY7JD/coffee-header.jpg?format=2500w);
+    
+*/
+
+/*
+.header-image {
+    background-image: url(Bilder/bakgrunn.jpg);
+    }
+
+*/
+
+
+
+/*  Overskrift  */
+
+h1 {
+ color: white;
+ text-align: center;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 80px;
+
+}
+
+h1 kafe-tittel  {
+    display: flex;
+    justify-content: center;
+    
+  
+}
+/* #kafe-tittel {
+     text-align: center;
+    color: whitesmoke;
+    position:absolute; 
+    margin-bottom: -20px;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    .center {
+        margin: auto;
+        width: 50%;
+        border: 3px solid green;
+        padding: 10px;
+      } 
+*/
+
+
+/*  Navigerings meny  */
+nav {  
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    
+}
+
+nav ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li   {
+    float: left;
+    padding-right: 50 px;
+    margin-right: 20px;
+}
+
+p   {
+    text-align: false;
+    background-image;
+}
+
+
+/*  Mat meny  */
+
+.meny   {
+    display: flex;
+    flex-direction: row;
+}
+
+.matklasse  {
+    width: 50%;
+    text-align: left; 
+    justify-content: baseline;
+}
+
+
+
+h2 {
+    color:rgb(132, 83, 42);
+    font-style: italic;
+}
+
+h3 {
+    color:rgb(71, 43, 16); 
+
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+
+/* Dette er for topp og bunn <hr> */
+.hr1 {
+    background-color:rgb(132, 83, 42);
+    height: 3px;
+}
+
+/* Allergiliste*/
+
+span.icons   {
+    font-family: icomoon, sans-serif;
+}
+
+div.allergi-liste   {
+display: flex;
+flex-direction: column;
+
+font-size: 15px;
+}
+
+
+.eggilias {
+    abbr: 
+}
+
+.piss {
+    font-weight: bold;
+    
+}
+
+.pris {
+    display: grid;
+    padding-right: 15px;
+    font-weight: bold;
+
+}
+
+.hitthegriddy {
+    display: grid;
+    font-weight: bold;
+
+}
+    /* dette under er for å lage gridsa i 'matkroppen og hvordan alt virker sammen */
+
+.matkroppen {
+    grid-template-columns: 6fr 1fr;
+    margin-bottom: 0px;
+    display: grid;
+    box-sizing: border-box;
+}
+
+.matteksten {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: fit-content;
+    margin-bottom: 5px;
+}
+
+/* kode ala loardinho */
+
+.matprisen {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    padding: 0 3px;
+}
+
+.matsplit {
+    border-right: 1px solid black;
+    padding-right: 1px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
