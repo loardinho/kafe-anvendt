@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anvendt Kafé</title>
     <link rel="stylesheet" href="style.css">
+            <!-- CSS Sheet import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+            <!-- Font import -->
 </head>
-
-<!-- <script src="https://kit.fontawesome.com/1d7d338fb5.js" crossorigin="anonymous"></script> -->
-<!--    ^ import ikonene ^  -->
 
 <body>
     <h1 id = "kafe-tittel"> Kafé Anvendt </h1> 
@@ -41,7 +43,7 @@
         <div class="matteksten">
             <p>KARBONADESMØRBRØD<br>
 <!-- Her bruker vi abbrevation for at man kan holde musa over   ikonet for å se hva det representerer -->
-                <i>Med remulade</i> (<abbr title="Egg"><i class="fa-solid fa-egg"></i></abbr>)</p>
+                <i>Med remulade</i> - <abbr title="Egg"><img class="allergi" src="Assets/Icons/allergi-egg.png"></abbr></p>
         </div>
     <div class="matprisen">
         <p class="pris">185,-</p>
@@ -52,9 +54,9 @@
         <div class="matteksten">
             <p>SKAGENSMØRBRØD<br>
                 <i>Med reker </i>
-                (<abbr title="Egg"><img class="allergi" src="Assets/Icons/allergi-egg.png" ></abbr>, 
+                - <abbr title="Egg"><img class="allergi" src="Assets/Icons/allergi-egg.png" ></abbr>
                 <img class="allergi" src="Assets/Icons/allergi-laktose.png" alt="Bruh" >  
-                <abbr title="Skalldyr"><img class="allergi" src="Assets/Icons/allergi-skalldyr.png" ></i></abbr>)</p>
+                <abbr title="Skalldyr"><img class="allergi" src="Assets/Icons/allergi-skalldyr.png" ></i></abbr></p>
         </div>
     <div class="matprisen">
         <p class="pris">185,-</p>
@@ -65,7 +67,7 @@
     <div class="matteksten">
         <p>ROASTBEEFSMØRBRØD<br>
             <i>Med remulade </i>
-            (<abbr title="Egg"><i class="fa-solid fa-egg"></i></abbr>)</p>
+            - <abbr title="Egg"><img class="allergi" src="Assets/Icons/allergi-egg.png"></abbr></p>
     </div>
 <div class="matprisen">
     <p class="pris">169,-</p>
@@ -74,9 +76,9 @@
 
 <div class="matkroppen">
     <div class="matteksten">
-        <p>FOCCACIA<br>
+        <h4>FOCCACIA </h4> <br>
             <p>Med kylling og kurrysalat 
-            <i>(<abbr title="Egg"><i class="fa-solid fa-egg"></i></abbr>, 
+            - <abbr title="Egg"><img class="allergi" src="Assets/Icons/allergi-egg.png"></abbr>
             <imgstangselleri)</p>
     </div>
 <div class="matprisen">
@@ -105,8 +107,8 @@
 
 <div class="matkroppen">
     <div class="matteksten">
-        <p>LITEN TAPASFJØL<br>
-            <i>Med kylling, spekeskinke, salat, rød og pesto (Laktose)</i></p>
+        <h4>LITEN TAPASFJØL</h4>    <br>
+            <p><i>Med kylling, spekeskinke, salat, rød og pesto (Laktose)</i></p>
     </div>
 <div class="matprisen">
     <p class="pris">149,-</p>
@@ -116,8 +118,8 @@
     
         <div class="matkroppen">
             <div class="matteksten">
-                <p>GRESK SALAT MED RØMMEDRESSING <br>
-                    <i>Valgfri med kylling eller spekeskinke (Laktose)</i></p>
+                <h4>GRESK SALAT MED RØMMEDRESSING</h4>   <br>
+                    <p>Valgfri med kylling eller spekeskinke</p>
             </div>
         <div class="matprisen">
             <p class="pris">219,-</p>
@@ -130,16 +132,15 @@
 <!--Allergiliste-->
 <hr class="hr1">
 
-    <div class="allergi-liste">
     
     <h3> ALLERGI LISTE: </h3>
+<ul>
+    <li class="allergi-liste">Egg: <img src="/Assets/Icons/allergi-selleri.png"></li>
+    <li class="allergi-liste">Laktose</li>  
+    <li class="allergi-liste">Skalldyr: <span class="icons">esm</span></li>
+    <li class="allergi-liste">Stangselleri: <img src="/Assets/Icons/allergi-selleri.png"></li>
+</ul>
 
-    <p>Egg: <img src="/Assets/Icons/allergi-selleri.png">
-    <p>Laktose</p>  
-    <p>Skalldyr: <span class="icons">esm</span></p>
-    <p>Stangselleri: <img src="/Assets/Icons/allergi-selleri.png"></p>
-    
-    </div>
 
 <hr class="hr1">
 

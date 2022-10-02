@@ -1,21 +1,4 @@
  
- /* Importere font til ikoner */
-
-/* @font-face  {
-    src: url(font/Icomoon/icomoon.ttf);
-} 
-
-*{
-    font-family: icomoon;
-}
-
-/*@import url('');
-
-@import {
-    url('/font/Icomoon/icomoon.eot'){
-    font-family: 'icomoon', sans-serif;
-}
-*/
 
 html    {
     scroll-behavior: smooth;
@@ -24,7 +7,7 @@ html    {
 body {
 
     background-color: blanchedalmond;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
 
     /*Midlertidig headerbilde*/
 
@@ -74,6 +57,21 @@ h1 kafe-tittel  {
     
   
 }
+
+h2 {
+    color:rgb(132, 83, 42);
+    font-style: italic;
+}
+
+h3 {
+    color:rgb(71, 43, 16); 
+
+}
+
+h4  {
+    font-weight: 700;
+    margin-bottom: -15px;
+}
 /* #kafe-tittel {
      text-align: center;
     color: whitesmoke;
@@ -116,10 +114,7 @@ nav ul li   {
     margin-right: 20px;
 }
 
-p   {
-    text-align: false;
-    background-image;
-}
+
 
 
 /*  Mat meny  */
@@ -137,42 +132,30 @@ p   {
 
 
 
-h2 {
-    color:rgb(132, 83, 42);
-    font-style: italic;
-}
 
-h3 {
-    color:rgb(71, 43, 16); 
-
-}
 
 a {
     color: rgb(0, 0, 0);
 }
 
+        /* Allergi-ikonene */
 img.allergi {
     height: 15px;
 }
 
-/* Dette er for topp og bunn <hr> */
+li.allergi-liste   {
+display: inline;
+font-size: 15px;
+}
+
+        /* Dette er for topp og bunn <hr> */
 .hr1 {
     background-color:rgb(132, 83, 42);
     height: 3px;
 }
 
-/* Allergiliste*/
 
-span.icons   {
-    font-family: icomoon, sans-serif;
-}
 
-div.allergi-liste   {
-display: flex;
-flex-direction: column;
-
-font-size: 15px;
-}
 
 
 .eggilias {
