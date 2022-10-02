@@ -1,7 +1,7 @@
  
  /* Importere font til ikoner */
 
- @font-face  {
+/* @font-face  {
     src: url(font/Icomoon/icomoon.ttf);
 } 
 
@@ -151,6 +151,9 @@ a {
     color: rgb(0, 0, 0);
 }
 
+img.allergi {
+    height: 15px;
+}
 
 /* Dette er for topp og bunn <hr> */
 .hr1 {
