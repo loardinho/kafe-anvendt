@@ -67,6 +67,9 @@ h3 {
     color:rgb(71, 43, 16); 
 
 }
+h3.allergi-liste-tittel {
+    display: inline;
+}
 
 h4  {
     font-weight: 700;
@@ -114,7 +117,10 @@ nav ul li   {
     margin-right: 20px;
 }
 
-
+div.margin-kropp    {
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
 
 /*  Mat meny  */
@@ -143,10 +149,26 @@ img.allergi {
     height: 15px;
 }
 
-li.allergi-liste   {
-display: inline;
-font-size: 15px;
+
+div.liste-align    {
+    text-align: center;
 }
+li.allergi-liste    {
+    display: inline;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+li.allergi-liste-første     {
+    display: inline;
+    padding-right: 5%;
+}
+li.allergi-liste-siste  {
+    display:inline;
+    padding-left: 5%;
+}
+
+
+
 
         /* Dette er for topp og bunn <hr> */
 .hr1 {
